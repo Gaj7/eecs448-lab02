@@ -112,7 +112,7 @@ bool LinkedList<T>::removeBack()
         }
         else if (m_size > 1){
             secondintoLast = m_front;
-            for (int i = 0; i < m_size -1; i++){
+            for (int i = 0; i < m_size -2; i++){
                 secondintoLast = secondintoLast.getNext();
             }
             
